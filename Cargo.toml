@@ -13,8 +13,8 @@ grpc-rust is a rust-lang specific version of gRPC. Under heavy dev *DO NOT USE* 
 """
 
 [dependencies]
-errno = "*"
-semver = "*"
-log = "*"
-env_logger = "*"
-rustc-serialize = "*"
+errno = "0.1.8"
+semver = "0.4.0"
+log = "0.3.6"
+env_logger = "0.3.4"
+rustc-serialize = "0.3.19"
