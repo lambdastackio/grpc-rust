@@ -5,11 +5,16 @@ authors = ["Chris Jones <cj@hanscj.com>"]
 license = "Apache-2.0"
 readme = "README.md"
 keywords = ["grpc", "http2"]
-repository = "https://github.com/lambdastackio/lsio"
-homepage = "https://github.com/lambdastackio/lsio"
-documentation = "https://github.com/lambdastackio/lsio"
+repository = "https://github.com/lambdastackio/grpc-rust"
+homepage = "https://github.com/lambdastackio/grpc-rust"
+documentation = "https://github.com/lambdastackio/grpc-rust"
 description = """
-lsio is the primary cli utility for the LambdaStack.io CI/CD solution.
+grpc-rust is a rust-lang specific version of gRPC. Under heavy dev *DO NOT USE* at this time.
 """
 
 [dependencies]
+errno = "*"
+semver = "*"
+log = "*"
+env_logger = "*"
+rustc-serialize = "*"
